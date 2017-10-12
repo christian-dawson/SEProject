@@ -13,6 +13,7 @@ public class MainWindow extends JFrame {
 
     public static JButton addButton;
     public static JButton quitButton;
+    public static MouseController mouseController;
 
     public MainWindow() {
 
@@ -31,8 +32,9 @@ public class MainWindow extends JFrame {
         addButton.addActionListener(buttonListener);
         quitButton.addActionListener(buttonListener);
 
-        MouseController mouseController = new MouseController();
+        mouseController = new MouseController();
         Main.gamePanel.addMouseListener(mouseController);
+        Main.gamePanel.addMouseMotionListener(mouseController);
 
         KeyController keyListener = new KeyController();
         Main.gamePanel.addKeyListener(keyListener);
