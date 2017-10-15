@@ -43,7 +43,7 @@ public class Missile extends GameFigure {
     @Override
     public void render(Graphics2D g) {
         g.setColor(color);
-        g.setStroke(new BasicStroke(3)); // thickness of the line
+        g.setStroke(new BasicStroke(2)); // thickness of the line
         g.drawOval((int) (super.x - size / 2),
                 (int) (super.y - size / 2),
                 size, size);
