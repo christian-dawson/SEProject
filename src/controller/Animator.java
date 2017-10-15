@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 public class Animator implements Runnable {
 
     public boolean running = true;
-    private final int FRAMES_PER_SECOND = 50;
+    private final int FRAMES_PER_SECOND = 40;
 
     @Override
     public void run() {
