@@ -1,0 +1,16 @@
+Position1: 67, 44
+Position2: 347, 44
+Position3: 623, 44
+Position4: 206, 131
+Position5: 345, 131
+Position6: 483, 131
+Position7: 67, 219
+Position8: 206, 219
+Position9: 483, 219
+Position10: 623, 219
+Position11: 206, 306
+Position12: 345, 306
+Position13: 483, 306
+Position14: 67, 393
+Position15: 347, 393
+Position16: 623, 393
